@@ -2631,6 +2631,14 @@ input, select, textarea {
 				margin: 0.3em 0 0.3em 0;
 				border-radius: 2px;
 			}
+      header.long-after h2:after {
+        display: block;
+        content: '';
+        width: 5em;
+        height: 2px;
+        margin: 0.3em 0 0.3em 0;
+        border-radius: 2px;
+      }
 
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
@@ -2958,7 +2966,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		/*margin: 0 0 2em 0;*/
 	}
 
 		.spotlight .content {
@@ -2987,7 +2995,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
-				width: 8em;
+				width: 9em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3039,7 +3047,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image img {
-					width: 8em;
+					width: 9em;
 				}
 
 		}
@@ -3560,7 +3568,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 2em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3587,7 +3595,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 2em 5em 2em 5em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3600,7 +3608,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 3em 2em 3em ;
+				padding: 2em 4em 2em 4em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3613,7 +3621,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 1em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3626,7 +3634,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 1.5em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3643,7 +3651,7 @@ input, select, textarea {
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 1em 1em 0.5em 1em ;
 				}
 
 					#main > .main > .image.main:first-child {
